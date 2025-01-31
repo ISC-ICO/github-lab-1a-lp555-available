@@ -1,3 +1,4 @@
+import javax.xml.stream.events.StartDocument;
 import java.util.Scanner;
 
 public class Main {
@@ -24,10 +25,17 @@ public class Main {
         int number2 = scanner.nextInt();
         System.out.println("You entered: " + number1 + " and " + number2);
         //Perform the basic mathematical operations of +, -, /, * and %.
+        System.out.println(" Adding " + number1 + " + " + number2 + " = " + (number1 + number2));
+        System.out.println (" Subtracting " + number1 + " + " + number2 + " = " + (number1 + number2));
+        System.out.println(" Multiplying " + number1 + " * " + number2 + " = " + (number1 * number2));
+        System.out.println(" Dividing " + number1 + " / " + number2 + " = " + (number1 / number2));
+        System.out.println(" Dividing " + number1 + " % " + number2 + " = " + (number1 % number2));
         //Output the results of each operation.
 
         //Cut and past the code above but use doubles instead of integers.
 
         //If you complete this ask for the next task.
     }
+
+
 }
