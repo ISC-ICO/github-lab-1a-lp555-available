@@ -1,4 +1,3 @@
-import javax.xml.stream.events.StartDocument;
 import java.util.Scanner;
 
 public class Main {
@@ -33,6 +32,17 @@ public class Main {
         //Output the results of each operation.
 
         //Cut and past the code above but use doubles instead of integers.
+        System.out.println("Enter a third number: ");
+        double number3 = scanner.nextInt();
+        System.out.println("You entered: " + number3);
+        System.out.println("Enter a fourth number: ");
+        double number4 = scanner.nextInt();
+        System.out.println("You entered: " + number4);
+        System.out.println("Adding " + number3 + " + " + number4 + " = " + (number3 + number4));
+        System.out.println ("Subtracting " + number3 + " + " + number4 + " = " + (number3 + number4));
+        System.out.println(" Multiplying " + number3 + " * " + number4 + " = " + (number3 * number4));
+        System.out.println(" Dividing " + number3 + " / " + number4 + " = " + (number3 / number4));
+        System.out.println(" Dividing " + number3 + " % " + number4 + " = " + (number3 % number4));
 
         //If you complete this ask for the next task.
     }
